@@ -1,0 +1,363 @@
+/* Mengatur tampilan dasar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Tampilan seluruh halaman */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f7fb;
+    color: #1f2937;
+}
+
+
+/* =========================
+   NAVBAR
+========================= */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 20px 8%;
+
+    background-color: white;
+
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+}
+
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #2563eb;
+}
+
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+
+.nav-menu a {
+    text-decoration: none;
+    color: #374151;
+    font-weight: 500;
+}
+
+
+.nav-menu a:hover {
+    color: #2563eb;
+}
+
+
+.signup-btn {
+    background-color: #2563eb;
+    color: white !important;
+
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+
+
+.signup-btn:hover {
+    background-color: #1d4ed8;
+}
+
+
+/* =========================
+   HERO SECTION
+========================= */
+
+.hero {
+    min-height: 420px;
+
+    display: flex;
+    align-items: center;
+
+    padding: 60px 10%;
+
+    background: linear-gradient(135deg, #dbeafe, #eff6ff);
+}
+
+
+.hero-text {
+    max-width: 650px;
+}
+
+
+.hero-text h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+
+    color: #1e3a8a;
+}
+
+
+.hero-text p {
+    font-size: 18px;
+    line-height: 1.7;
+
+    margin-bottom: 30px;
+
+    color: #4b5563;
+}
+
+
+.hero-btn {
+    display: inline-block;
+
+    text-decoration: none;
+
+    background-color: #2563eb;
+    color: white;
+
+    padding: 14px 28px;
+
+    border-radius: 8px;
+
+    font-weight: bold;
+}
+
+
+.hero-btn:hover {
+    background-color: #1d4ed8;
+}
+
+
+/* =========================
+   PRODUK
+========================= */
+
+.produk {
+    padding: 70px 10%;
+
+    text-align: center;
+}
+
+
+.produk h2 {
+    font-size: 32px;
+
+    margin-bottom: 10px;
+
+    color: #1f2937;
+}
+
+
+.produk-subtitle {
+    color: #6b7280;
+
+    margin-bottom: 40px;
+}
+
+
+.produk-container {
+    display: flex;
+
+    justify-content: center;
+
+    gap: 25px;
+
+    flex-wrap: wrap;
+}
+
+
+.produk-card {
+    width: 300px;
+
+    background-color: white;
+
+    padding: 30px;
+
+    border-radius: 15px;
+
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+
+    text-align: left;
+}
+
+
+.produk-card:hover {
+    transform: translateY(-8px);
+
+    transition: 0.3s;
+}
+
+
+.produk-icon {
+    font-size: 45px;
+
+    margin-bottom: 20px;
+}
+
+
+.produk-card h3 {
+    margin-bottom: 15px;
+
+    color: #1e3a8a;
+}
+
+
+.produk-card p {
+    color: #6b7280;
+
+    line-height: 1.6;
+
+    margin-bottom: 25px;
+}
+
+
+.detail-btn {
+    display: inline-block;
+
+    background-color: #eff6ff;
+
+    color: #2563eb;
+
+    padding: 10px 18px;
+
+    border-radius: 8px;
+
+    text-decoration: none;
+
+    font-weight: bold;
+}
+
+
+.detail-btn:hover {
+    background-color: #2563eb;
+
+    color: white;
+}
+
+
+/* =========================
+   FOOTER
+========================= */
+
+footer {
+    text-align: center;
+
+    padding: 25px;
+
+    background-color: #1e3a8a;
+
+    color: white;
+}
+
+/* =========================
+   DETAIL PRODUK
+========================= */
+
+.detail-produk {
+    min-height: 500px;
+    padding: 80px 10%;
+    background-color: #f5f7fb;
+}
+
+.detail-container {
+    max-width: 1000px;
+    margin: auto;
+
+    display: flex;
+    gap: 50px;
+
+    align-items: center;
+
+    background-color: white;
+    padding: 50px;
+
+    border-radius: 20px;
+
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+}
+
+.detail-icon {
+    font-size: 120px;
+
+    background-color: #eff6ff;
+
+    width: 220px;
+    height: 220px;
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 20px;
+}
+
+.detail-content {
+    flex: 1;
+}
+
+.jenis-produk {
+    color: #2563eb;
+
+    font-weight: bold;
+
+    margin-bottom: 10px;
+}
+
+.detail-content h1 {
+    color: #1e3a8a;
+
+    font-size: 36px;
+
+    margin-bottom: 20px;
+}
+
+.detail-deskripsi {
+    color: #6b7280;
+
+    line-height: 1.7;
+
+    margin-bottom: 25px;
+}
+
+.detail-content h3 {
+    color: #1f2937;
+
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.detail-content ul {
+    margin-left: 20px;
+
+    color: #4b5563;
+
+    line-height: 1.8;
+
+    margin-bottom: 20px;
+}
+
+.beli-btn {
+    display: inline-block;
+
+    margin-top: 25px;
+
+    padding: 14px 28px;
+
+    background-color: #2563eb;
+
+    color: white;
+
+    text-decoration: none;
+
+    border-radius: 8px;
+
+    font-weight: bold;
+}
+
+.beli-btn:hover {
+    background-color: #1d4ed8;
+}
